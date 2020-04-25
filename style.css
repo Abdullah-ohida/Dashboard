@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(1, 1, 12);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    margin: 3em 4em;
+
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+header p{
+    line-height: 2em;
+    font-weight: bold;
+    color: rgb(125, 132, 133);
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 18px;
+    border-radius: 25px;
+    outline: none;
+    background: linear-gradient(180deg, rgb(9, 103, 190), rgb(3, 135, 175));
+    padding:  0 2px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:  rgb(1, 1, 12);
+   
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex{
+    background-color: rgba(25, 25, 66, 0.5);
+    width: 230px;
+    height: 210px;
+    text-align: center;
+    padding: 2em 3em 1em 3em;
+    margin: 2em 0;
+    border-top: solid 4px;
+    border-radius: 5px;
+}
+
+.flex .logo{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 2em;
+}
+
+ .flex i{
+    font-size: 18px;
+    color: rgb(8, 102, 156);
+}
+
+.flex .logo div{
+    padding: 0 .5em;
+}
+
+.flex h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+article{
+    padding: 1em 0;
+}
+
+article p{
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(125, 132, 133);
+    letter-spacing: 2px;
+}
+.flex .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.flex .arrow div{
+    padding: 0 .4em;
+}
+
+#flex1{
+   border-color: rgb(8, 102, 156);
+   /* font-size: 15px;
+        background: -webkit-linear-gradient(green, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+}
+
+#flex1 .arrow i{
+    color: rgba(11, 212, 95, .5);
+    padding-top: .4em;
+}
+#flex1 .arrow p{
+    color: rgba(11, 212, 95, .5);
+     font-weight: bold;
+}
+
+#flex2{
+    border-color: rgb(8, 102, 156);
+ }
+ #flex2 .arrow i{
+    color: rgba(11, 212, 95, .5);
+    padding-top: .4em;
+ }
+ #flex2 .arrow p{
+    color: rgba(11, 212, 95, .5);
+    font-weight: bold;
+ }
+
+ #flex3{
+    border-color: rgb(230, 101, 101);
+ }
+ #flex3 i{
+     color: rgb(230, 101, 101);
+     padding-top: .4em;
+ }
+ #flex3 .arrow p{
+     color: rgba(11, 212, 95, .5);
+     font-weight: bold;
+ }
+ #flex3 .arrow i{
+    color: rgba(11, 212, 95, .5);
+}
+
+#flex4{
+    border-color: rgb(117, 2, 2);
+ }
+ #flex4 i{
+     color: rgb(117, 2, 2);
+ }
+ #flex4 .arrow p{
+     color:rgba(247, 75, 75, 0.5);
+     font-weight: bold;
+ }
+ #flex4 .arrow i{
+    color: rgba(248, 69, 69, 0.5);
+    padding-bottom: .4em;
+}
+
+section h3{
+    font-weight: bold;
+    padding: 1em 0;
+}
+ 
+section .sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sub .sub-flex{
+    width: 230px;
+    background-color: rgba(25, 25, 66, 0.5);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.sub-flex .sub1-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2.5em;
+}
+.sub-flex .sub2-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub1-flex p{
+    color: rgb(125, 132, 133);
+    font-weight: bold;
+}
+
+.sub-flex .arr-flex{
+    display: flex;
+    align-items: center;
+}
+
+.sub-flex .arr-flex div{
+   padding: 0 .4em;
+}
+
+.sub-flex .arr-flex i{
+    padding-top: .4em;
+}
+
+#logo{
+    color: rgb(8, 102, 156);
+    font-size: 20px;
+}
+
+.sub-flex .arr-flex i{
+    color: rgba(11, 212, 95, .5);
+}
+.sub-flex .arr-flex p{
+    color: rgba(11, 212, 95, .5);
+}
+
+#logo1{
+    font-size: 20px;
+}
+
+.section-2 .sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.youtube{
+    font-size: 20px;
+    color: rgb(117, 2, 2);
+}
+
+.instagram{
+    font-size: 20px;
+    color:  rgba(247, 75, 75, 0.5);
+}
+
+#twitter{
+    color: rgba(247, 75, 75, 0.5);
+}
+#twitter{
+    font-size: 20px;
+    color: rgb(8, 102, 156);
+}
+
+.dark-mode{
+  background-color: rgb(196, 189, 189);
+} 
+
+.change{
+    color: black;
+}

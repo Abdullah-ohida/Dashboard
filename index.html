@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2052a1ca7.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="text">
+                <h3 class="color">Social Media Dashboard</h3>
+                <p>Total Followers: 23,004</p>
+            </div>
+            <div class="slider">
+                <label for="change">Dark Mode</label><br>
+                <input type="range" min="10" max="25" value="10" name="change" onclick="myFunction()" class="slider">
+            </div>
+        </header>
+
+        <div class="flex-container">
+            <div class="flex" id="flex1">
+                <div class="logo">
+                    <div><i class="fab fa-facebook-square"></i></div>
+                    <div class="color">@nathaf</div>
+                </div>
+                <article>
+                    <h1 class="color">1987</h1>
+                    <p>Followers</p>
+                </article>
+                <div class="arrow">
+                    <div><i class="fas fa-sort-up"></i></div>
+                    <div>
+                        <p class="last">12 Today</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex" id="flex2">
+                <div class="logo">
+                    <div><i class="fab fa-twitter"></i></div>
+                    <div class="color">@kindaf</div>
+                </div>
+                <article>
+                    <h1 class="color">1044</h1>
+                    <p>Followers</p>
+                </article>
+                <div class="arrow">
+                    <div><i class="fas fa-sort-up"></i></div>
+                    <div>
+                        <p class="last">99 Today</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="flex" id="flex3">
+
+                <div class="logo">
+                    <div><i class="fab fa-instagram"></i></div>
+                    <div class="color">@omeiza</div>
+                </div>
+                <article>
+                    <h1 class="color">11K</h1>
+                    <p>Followers</p>
+                </article>
+                <div class="arrow">
+                    <div><i class="fas fa-sort-up"></i></div>
+                    <div>
+                        <p class="last">1099 Today</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex" id="flex4">
+
+                <div class="logo">
+                    <div><i class="fab fa-youtube-square"></i></div>
+                    <div class="color">@ohida</div>
+                </div>
+                <article>
+                    <h1 class="color">8239</h1>
+                    <p>subcribers</p>
+                </article>
+                <div class="arrow">
+                    <div><i class="fas fa-sort-down"></i></div>
+                    <div>
+                        <p class="last">144 Today</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <section>
+            <h3 class="color">Overview - Today</h3>
+            <div class="sub">
+                <div class="sub-flex" id="sub1">
+                    <div class="sub1-flex">
+                        <p>Page views</p>
+                        <div><i class="fab fa-facebook-square" id="logo"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1 class="color">87</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-up"></i></div>
+                                <p class="last">3%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub2">
+                        <p>Likes</p>
+                        <div><i class="fab fa-facebook-square" id="logo"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>52</h1>
+                        <div>
+                            <div class="arr-flex" >
+                                <div><i class="fas fa-sort-down"></i></div>
+                                <p class="last">2%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub3">
+                        <p>Likes</p>
+                        <div><i class="fab fa-instagram instagram" id="logo1"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>5462</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-up" id="logo1"></i></div>
+                                <p class="last">2257%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub4">
+                        <p>Page views</p>
+                        <div><i class="fab fa-instagram instagram"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>52K</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-up"></i></div>
+                                <p class="last">1375%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-2">
+            <div class="sub">
+                <div class="sub-flex" id="sub1">
+                    <div class="sub1-flex">
+                        <p>Page views</p>
+                        <div><i class="fab fa-twitter" id="twitter"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>87</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-up"></i></div>
+                                <p class="last">3%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub2">
+                        <p>Likes</p>
+                        <div><i class="fab fa-twitter" id="twitter"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>52</h1>
+                        <div>
+                            <div class="arr-flex" >
+                                <div><i class="fas fa-sort-up"></i></div>
+                                <p class="last">2%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub3">
+                        <p>Likes</p>
+                        <div><i class="fab fa-youtube-square  youtube"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>5462</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-down" id="youtube"></i></div>
+                                <p class="last">2257%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-flex">
+                    <div class="sub1-flex" id="sub4">
+                        <p>Page views</p>
+                        <div><i class="fab fa-youtube-square youtube"></i></div>
+                    </div>
+                    <div class="sub2-flex">
+                        <h1>52K</h1>
+                        <div>
+                            <div class="arr-flex">
+                                <div><i class="fas fa-sort-down" id="youtube"></i></div>
+                                <p class="last">1375%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
