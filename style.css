@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(1, 1, 12);
+    background-color: var(--bg-color);
     width: 100%;
     min-height: 100vh;
 }
@@ -63,7 +63,7 @@ input[type=range]::-webkit-slider-thumb{
 }
 
 .flex{
-    background-color: rgba(25, 25, 66, 0.5);
+    background-color: var(--heading-color);
     width: 230px;
     height: 210px;
     text-align: center;
@@ -102,7 +102,7 @@ article p{
     padding-bottom: 1.5em;
     text-transform: uppercase;
     font-size: 15px;
-    color: rgb(125, 132, 133);
+    color: var(--seconary-color);
     letter-spacing: 2px;
 }
 .flex .arrow{
@@ -190,7 +190,7 @@ section .sub{
 
 .sub .sub-flex{
     width: 230px;
-    background-color: rgba(25, 25, 66, 0.5);
+    background-color: var(--heading-color);
     padding: 1em;
     margin: 1em 0;
     border-radius: 5px;
@@ -268,10 +268,25 @@ section .sub{
     color: rgb(8, 102, 156);
 }
 
-.dark-mode{
-  background-color: rgb(196, 189, 189);
-} 
-
 .change{
     color: black;
+}
+
+h1, h2, h3{
+    color: var(--primary-color);
+}
+
+:root{
+    --bg-color: rgb(1, 1, 12);
+    --primary-color: #fff;
+    --seconary-color:rgb(125, 132, 133); 
+    --heading-color: rgba(25, 25, 66, 0.5);
+}
+
+
+[data-theme='dark']{
+    --bg-color: rgb(99, 96, 96);
+    --primary-color:black;
+    --seconary-color:rgb(201, 207, 207); 
+    --heading-color: rgb(18, 18, 32);
 }
